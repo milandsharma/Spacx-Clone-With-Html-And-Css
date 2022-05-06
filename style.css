@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    margin: 0;
+    height: 15vh;
+    align-items: center;
+}
+.logo{
+    width:20%
+}
+nav .logo img{
+    width: 100%;
+    height: 5vh;
+    text-align: left;
+    margin-left:1%;
+}
+nav .nav-content span{
+    color: #fff;
+    margin-left: 3%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.nav-content{
+    width: 65%;
+}
+.shop{
+    width:15%;
+    color: #fff;
+}
+.shop span{
+    font-size: .78rem;
+    margin-left: 35%;
+    font-weight: bold;
+}
+.d1{
+    background-image: url("images/d1.webp");
+    background-size:cover;
+    height: 84.9vh;
+    box-sizing: border-box;
+    padding-top:22%;
+    padding-left: 8%;
+}
+.d11{
+    height:30vh;
+    width: 60vh;
+}
+.d1 .heading{
+    font-size:1.2rem;
+    line-height: 3em;
+}
+.d1 .heading p{
+    line-height: 1.2rem;
+}
+.d1 button{
+    height:22%;
+    width: 33%;
+    font-size:1rem;
+    border-radius: 0;
+    margin-top:5.5%;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+.d2{
+    background-image: url("images/d2.webp");
+    background-size:cover;
+    height: 104vh;
+    box-sizing: border-box;
+    padding-top:31.3%;
+    padding-left: 12.3%;
+}
+.d21{
+    height:30vh;
+    width: 60vh;
+}
+.d2 .heading{
+    font-size:1.2rem;
+    line-height: 3em;
+}
+.d2 .heading p{
+    line-height: 1.2rem;
+}
+.d2 button{
+    height:22%;
+    width: 33%;
+    font-size:1rem;
+    border-radius: 0;
+    margin-top:5.5%;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+.d3{
+    background-image: url("images/d3.webp");
+    background-size:cover;
+    height: 102vh;
+    box-sizing: border-box;
+    padding-top:24%;
+    padding-left: 9.7%;
+}
+.d31{
+    height:30vh;
+    width: 60vh;
+}
+.d3 .heading{
+    font-size:1.2rem;
+    line-height: 3em;
+}
+.d3 .heading p{
+    line-height: 1.2rem;
+}
+.d3 button{
+    height:22%;
+    width: 33%;
+    font-size:1rem;
+    border-radius: 0;
+    margin-top:5.5%;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+.d4{
+    background-image: url("images/d4.webp");
+    background-size:cover;
+    height: 104vh;
+    box-sizing: border-box;
+    padding-top:24%;
+    padding-left: 9.7%;
+}
+.d41{
+    height:30vh;
+    width: 60vh;
+}
+.d4 .heading{
+    font-size:1.2rem;
+    line-height: 3em;
+}
+.d4 .heading p{
+    line-height: 1.2rem;
+}
+.d4 button{
+    height:22%;
+    width: 33%;
+    font-size:1rem;
+    border-radius: 0;
+    margin-top:5.5%;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+.d5{
+    background-image: url("images/d5.webp");
+    background-size:cover;
+    height: 104vh;
+    box-sizing: border-box;
+    padding-top:24%;
+    padding-left: 9.7%;
+}
+.d51{
+    height:30vh;
+    width: 60vh;
+}
+.d5 .heading{
+    font-size:1.2rem;
+    line-height: 3em;
+}
+.d5 .heading p{
+    line-height: 1.2rem;
+}
+.d5 button{
+    height:22%;
+    width: 33%;
+    font-size:1rem;
+    border-radius: 0;
+    margin-top:5.5%;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.d6{
+    background-image: url("images/d6.webp");
+    background-size:cover;
+    height: 104vh;
+    box-sizing: border-box;
+    padding-top:24%;
+    padding-left: 9.7%;
+}
+.d61{
+    height:30vh;
+    width: 60vh;
+}
+.d6 .heading{
+    font-size:1.2rem;
+    line-height: 3em;
+}
+.d6 .heading p{
+    line-height: 1.2rem;
+}
+.d6 button{
+    height:22%;
+    width: 33%;
+    font-size:1rem;
+    border-radius: 0;
+    margin-top:5.5%;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+footer{
+    height: 12vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span {
+    margin-left: 2%;
+    font-size:.7rem;
+    font-weight:700;
+    cursor: pointer;
+
+}
+footer .unbold{
+    font-weight:400;
+    color: grey;
+    cursor: default;
+
+}
+footer span:hover{
+    color: grey;
+}
